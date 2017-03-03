@@ -1,0 +1,36 @@
+########################################################################
+# CONFIGURATION
+# CHANGE THESE VALUES TO TARGET YOUR VMS, KEY MATERIALS, NAMES, ETC.
+########################################################################
+
+# Registry
+registryName="swarm-reg"
+registryFQDN="registry.example.com"
+# If you need to use an insecure registry, enable this
+# useInsecureRegistry=1
+
+# Managers
+manager1Name="swarm-mgr-1"
+manager2Name="swarm-mgr-2"
+manager1FQDN="manager1.example.com"
+manager2FQDN="manager2.example.com"
+
+# Workers
+worker1Name="swarm-worker-1"
+worker2Name="swarm-worker-2"
+worker3Name="swarm-worker-3"
+worker1FQDN="worker1.example.com"
+worker2FQDN="worker2.example.com"
+worker3FQDN="worker3.example.com"
+
+# SSH User and Key Materials
+# Note: This setup script assumes the keypair and cert pair share a name
+# (e.g example-ssh-key and example-ssh-key.pub, example.crt and example.key)
+user="swarm"
+keypair="$HOME/.ssh/example-ssh-key"
+cert="$HOME/.ssh/example"
+
+# Dockerfile
+dockerImageName="microservice"
+dockerFileDir="docker/"
+########################################################################
