@@ -1,0 +1,10 @@
+{
+  "name": "docker-swarm-setup",
+  "description": "Scripts to create an example Docker Swarm setup.",
+  "authors": "Kevin Delisle <delisle@ca.ibm.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sh setup.sh"
+  },
+  "license" : "SEE LICENSE IN LICENSE.txt"
+}
