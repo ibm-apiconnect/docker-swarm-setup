@@ -6,5 +6,5 @@
   "scripts": {
     "start": "sh setup.sh"
   },
-  "license" : "SEE LICENSE IN LICENSE.txt"
+  "license" : "SEE LICENSE IN LICENSE"
 }
